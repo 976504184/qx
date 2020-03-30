@@ -1,0 +1,13 @@
+shadowsocks=ninogdeshidpomqprooneo.zhxcshop.com:443,method=chacha20-ietf, password=9OG6A4, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=45643:9T2kYs, obfs=tls1.2_ticket_auth, obfs-host=9f68c45643.espn.com, tag=香港-A
+
+shadowsocks=zhendefreeoneoulikepqa.zhxcshop.com:443,method=chacha20-ietf, password=kjasASHLoa, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=6DTvYkX8, obfs=tls1.2_ticket_auth, obfs-host=sacucaoji.com, tag=香港-B
+
+shadowsocks=nenggongfangprotwonali.zhxcshop.com:443,method=chacha20-ietf, password=kjasASHLoa, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=6DTvYkX8, obfs=tls1.2_ticket_auth, obfs-host=sacucaoji.com, tag=香港-D
+
+shadowsocks=oppalitokyonajielu.bluerabbit.cc:443,method=chacha20-ietf, password=9OG6A4, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=45643:9T2kYs, obfs=tls1.2_ticket_auth, obfs-host=9f68c45643.espn.com, tag=東京-A
+
+shadowsocks=settleseattleman.bluerabbit.cc:443,method=chacha20-ietf, password=9OG6A4, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=45643:9T2kYs, obfs=tls1.2_ticket_auth, obfs-host=9f68c45643.espn.com, tag=美國-西雅圖-A
+
+shadowsocks=144.34.219.191:80,method=chacha20-ietf, password=kjasASHLoa, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=6DTvYkX8, obfs=tls1.2_ticket_auth, obfs-host=sacucaoji.com, tag=洛杉磯-E
+
+shadowsocks=45.32.229.90:443,method=chacha20-ietf, password=kjasASHLoa, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=6DTvYkX8, obfs=tls1.2_ticket_auth, obfs-host=sacucaoji.com, tag=西雅圖-C
