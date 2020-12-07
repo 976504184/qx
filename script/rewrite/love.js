@@ -9,12 +9,15 @@ MITM = lovezbapi.zjjieneng.cn
 
 let obj = JSON.parse($response.body);
 
+console.log(obj)
+
 if (obj.data.info) {
 	for(var info in obj.data.info){
            info.type="0";
            info.type_val="0";
     }
 }
+console.log(obj)
 $done({
 	body: JSON.stringify(obj)
 });
