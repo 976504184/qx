@@ -9,11 +9,9 @@ MITM = lovezbapi.zjjieneng.cn
 let obj = JSON.parse($response.body);
 
 if (obj.data.info) {
-	 console.log(JSON.stringify(obj.data.info));
 	for(var info in obj.data.info){
-	   console.log(JSON.stringify(obj.data.info[info]));
-           info.type = "0";
-           info.type_val = "0";          
+           obj.data.info[info].type = "0";
+           obj.data.info[info].type_val = "0";          
     }
 }
 $done({
