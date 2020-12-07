@@ -11,8 +11,10 @@ let obj = JSON.parse($response.body);
 
 if (obj.data.info) {
 	for(var info in obj.data.info){
+	   console.log(JSON.stringify(info));
            info.type = "0";
            info.type_val = "0";
+           console.log(JSON.stringify(info));
     }
 }
 console.log(JSON.stringify(obj))
