@@ -6,7 +6,6 @@ QX:
 MITM = lovezbapi.zjjieneng.cn
 */
 
-
 let obj = JSON.parse($response.body);
 
 if (obj.data.info) {
