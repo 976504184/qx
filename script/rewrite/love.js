@@ -2,8 +2,8 @@
 更新：2020-12-07
 破解收费
 QX:
-^https:\/\/lovezbapi\.zjjieneng\.cn\/api\/public\/\?service=.* url script-request-header https://raw.githubusercontent.com/976504184/qx/master/script/rewrite/love.js
-MITM = lovezbapi.zjjieneng.cn
+^https:\/\/lovezbapi\.jf-mrx\.com\.cn\/api\/public\/\?.*&service=.* url script-request-header https://raw.githubusercontent.com/976504184/qx/master/script/rewrite/love.js
+MITM = lovezbapi.jf-mrx.com.cn
 */
 
 let obj = JSON.parse($response.body);
