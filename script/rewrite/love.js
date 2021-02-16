@@ -1,8 +1,8 @@
 /*
-更新：2020-12-07
+更新：2021-02-16
 破解收费
 QX:
-^https:\/\/lovezbapi\.jf-mrx\.com\.cn\/api\/public\/\?.*&service=.* url script-request-header https://raw.githubusercontent.com/976504184/qx/master/script/rewrite/love.js
+^https:\/\/lovezbapi\.jf-mrx\.com\.cn\/api\/public\/\?.*&service=.* url script-response-body https://raw.githubusercontent.com/976504184/qx/master/script/rewrite/love.js
 MITM = lovezbapi.jf-mrx.com.cn
 */
 
@@ -14,7 +14,7 @@ if (obj.data.info) {
         info.type_val = "0";
         info.level = "2";
     }
-    console.log(obj.data.info);
+   //console.log(obj.data.info);
 }
 $done({
     body: JSON.stringify(obj)
