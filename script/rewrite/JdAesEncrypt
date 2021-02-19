@@ -1,164 +1,164 @@
 'use strict';
 (function(value) {
-  value[_0xb483[0]] = _0xb483[1];
+    value[_0xb483[0]] = _0xb483[1];
 })(_a);
 /** @type {!Array} */
-var __Oxb227b = ["isNode", "crypto-js", "98c14c997fde50cc18bdefecfd48ceb7", "parse", "Utf8", "enc", "ea653f4f3c5eda12", "ciphertext", "CBC", "mode", "Pkcs7", "pad", "encrypt", "AES", "Hex", "stringify", "Base64", "decrypt", "length", "map", "sort", "keys", "gift", "pet", "includes", "&", "join", "=", "?", "indexOf", "common/", "replace", "header", "url", "reqSource=h5", "assign", "method", "GET", "data", "toLowerCase", "keyCode", "content-type", "Content-Type", "", "get", "post", "application/x-www-form-urlencoded", 
-"_", "undefined", "log", "\u5220\u9664", "\u7248\u672c\u53f7\uff0cjs\u4f1a\u5b9a", "\u671f\u5f39\u7a97\uff0c", "\u8fd8\u8bf7\u652f\u6301\u6211\u4eec\u7684\u5de5\u4f5c", "jsjia", "mi.com"];
+var __Oxb227b = ["isNode", "crypto-js", "98c14c997fde50cc18bdefecfd48ceb7", "parse", "Utf8", "enc", "ea653f4f3c5eda12", "ciphertext", "CBC", "mode", "Pkcs7", "pad", "encrypt", "AES", "Hex", "stringify", "Base64", "decrypt", "length", "map", "sort", "keys", "gift", "pet", "includes", "&", "join", "=", "?", "indexOf", "common/", "replace", "header", "url", "reqSource=h5", "assign", "method", "GET", "data", "toLowerCase", "keyCode", "content-type", "Content-Type", "", "get", "post", "application/x-www-form-urlencoded",
+    "_", "undefined", "log", "删除", "版本号，js会定", "期弹窗，", "还请支持我们的工作", "jsjia", "mi.com"
+];
 /**
  * @param {?} obj
  * @return {?}
  */
 function taroRequest(obj) {
-  const C = $[__Oxb227b[0]]() ? require(__Oxb227b[1]) : CryptoJS;
-  const artistTrack = __Oxb227b[2];
-  const pw_salt = C[__Oxb227b[5]][__Oxb227b[4]][__Oxb227b[3]](artistTrack);
-  const iv = C[__Oxb227b[5]][__Oxb227b[4]][__Oxb227b[3]](__Oxb227b[6]);
-  let tiledImageBRs = {
-    "AesEncrypt" : function _0xColorToHex(color) {
-      var defaultForegroundColor = C[__Oxb227b[5]][__Oxb227b[4]][__Oxb227b[3]](color);
-      return C[__Oxb227b[13]][__Oxb227b[12]](defaultForegroundColor, pw_salt, {
-        "iv" : iv,
-        "mode" : C[__Oxb227b[9]][__Oxb227b[8]],
-        "padding" : C[__Oxb227b[11]][__Oxb227b[10]]
-      })[__Oxb227b[7]].toString();
-    },
-    "AesDecrypt" : function testHashFn(key) {
-      var level = C[__Oxb227b[5]][__Oxb227b[14]][__Oxb227b[3]](key);
-      var ent = C[__Oxb227b[5]][__Oxb227b[16]][__Oxb227b[15]](level);
-      return C[__Oxb227b[13]][__Oxb227b[17]](ent, pw_salt, {
-        "iv" : iv,
-        "mode" : C[__Oxb227b[9]][__Oxb227b[8]],
-        "padding" : C[__Oxb227b[11]][__Oxb227b[10]]
-      }).toString(C[__Oxb227b[5]].Utf8).toString();
-    },
-    "Base64Encode" : function make_row(level) {
-      var numberOfTiles = C[__Oxb227b[5]][__Oxb227b[4]][__Oxb227b[3]](level);
-      return C[__Oxb227b[5]][__Oxb227b[16]][__Oxb227b[15]](numberOfTiles);
-    },
-    "Base64Decode" : function _0xColorToHex(color) {
-      return C[__Oxb227b[5]][__Oxb227b[16]][__Oxb227b[3]](color).toString(C[__Oxb227b[5]].Utf8);
-    },
-    "Md5encode" : function md5(message) {
-      return C.MD5(message).toString();
-    },
-    "keyCode" : __Oxb227b[2]
-  };
-  const resizeOnLoad = function cb(obj, ret) {
-    if (obj instanceof Array) {
-      ret = ret || [];
-      /** @type {number} */
-      var i = 0;
-      for (; i < obj[__Oxb227b[18]]; i++) {
-        ret[i] = cb(obj[i], ret[i]);
-      }
-    } else {
-      if (!(obj instanceof Array) && obj instanceof Object) {
-        ret = ret || {};
-        Object[__Oxb227b[21]](obj)[__Oxb227b[20]]()[__Oxb227b[19]](function(key) {
-          ret[key] = cb(obj[key], ret[key]);
-        });
-      } else {
-        /** @type {string} */
-        ret = obj;
-      }
+        const C = $[__Oxb227b[0]]() ? require(__Oxb227b[1]) : CryptoJS;
+        const artistTrack = __Oxb227b[2];
+        const pw_salt = C[__Oxb227b[5]][__Oxb227b[4]][__Oxb227b[3]](artistTrack);
+        const iv = C[__Oxb227b[5]][__Oxb227b[4]][__Oxb227b[3]](__Oxb227b[6]);
+        let tiledImageBRs = {
+            "AesEncrypt": function _0xColorToHex(color) {
+                var defaultForegroundColor = C[__Oxb227b[5]][__Oxb227b[4]][__Oxb227b[3]](color);
+                return C[__Oxb227b[13]][__Oxb227b[12]](defaultForegroundColor, pw_salt, {
+                    "iv": iv,
+                    "mode": C[__Oxb227b[9]][__Oxb227b[8]],
+                    "padding": C[__Oxb227b[11]][__Oxb227b[10]]
+                })[__Oxb227b[7]].toString();
+            },
+            "AesDecrypt": function testHashFn(key) {
+                var level = C[__Oxb227b[5]][__Oxb227b[14]][__Oxb227b[3]](key);
+                var ent = C[__Oxb227b[5]][__Oxb227b[16]][__Oxb227b[15]](level);
+                return C[__Oxb227b[13]][__Oxb227b[17]](ent, pw_salt, {
+                    "iv": iv,
+                    "mode": C[__Oxb227b[9]][__Oxb227b[8]],
+                    "padding": C[__Oxb227b[11]][__Oxb227b[10]]
+                }).toString(C[__Oxb227b[5]].Utf8).toString();
+            },
+            "Base64Encode": function make_row(level) {
+                var numberOfTiles = C[__Oxb227b[5]][__Oxb227b[4]][__Oxb227b[3]](level);
+                return C[__Oxb227b[5]][__Oxb227b[16]][__Oxb227b[15]](numberOfTiles);
+            },
+            "Base64Decode": function _0xColorToHex(color) {
+                return C[__Oxb227b[5]][__Oxb227b[16]][__Oxb227b[3]](color).toString(C[__Oxb227b[5]].Utf8);
+            },
+            "Md5encode": function md5(message) {
+                return C.MD5(message).toString();
+            },
+            "keyCode": __Oxb227b[2]
+        };
+        const resizeOnLoad = function cb(obj, ret) {
+            if (obj instanceof Array) {
+                ret = ret || [];
+                /** @type {number} */
+                var i = 0;
+                for (; i < obj[__Oxb227b[18]]; i++) {
+                    ret[i] = cb(obj[i], ret[i]);
+                }
+            } else {
+                if (!(obj instanceof Array) && obj instanceof Object) {
+                    ret = ret || {};
+                    Object[__Oxb227b[21]](obj)[__Oxb227b[20]]()[__Oxb227b[19]](function(key) {
+                        ret[key] = cb(obj[key], ret[key]);
+                    });
+                } else {
+                    /** @type {string} */
+                    ret = obj;
+                }
+            }
+            return ret;
+        };
+        const resolve = function exports(execFile_opt) {
+            /** @type {!Array} */
+            var nextIdLookup = [__Oxb227b[22], __Oxb227b[23]];
+            /** @type {boolean} */
+            var hashTablePair = false;
+            /** @type {number} */
+            var indexLookupKey = 0;
+            for (; indexLookupKey < nextIdLookup[__Oxb227b[18]]; indexLookupKey++) {
+                var currentIndex = nextIdLookup[indexLookupKey];
+                if (execFile_opt[__Oxb227b[24]](currentIndex) && !hashTablePair) {
+                    /** @type {boolean} */
+                    hashTablePair = true;
+                }
+            }
+            return hashTablePair;
+        };
+        const _time2int = function jsonFixer(value, obj) {
+            if (obj && Object[__Oxb227b[21]](obj)[__Oxb227b[18]] > 0) {
+                var widgetId = Object[__Oxb227b[21]](obj)[__Oxb227b[19]](function(key) {
+                    return key + __Oxb227b[27] + obj[key];
+                })[__Oxb227b[26]](__Oxb227b[25]);
+                return value[__Oxb227b[29]](__Oxb227b[28]) >= 0 ? value + __Oxb227b[25] + widgetId : value + __Oxb227b[28] + widgetId;
+            }
+            return value;
+        };
+        const prettyTime = function exports(console) {
+            var PL$13 = iv;
+            /** @type {number} */
+            var PL$17 = 0;
+            for (; PL$17 < PL$13[__Oxb227b[18]]; PL$17++) {
+                var msg = PL$13[PL$17];
+                if (console[__Oxb227b[24]](msg) && !console[__Oxb227b[24]](__Oxb227b[30] + msg)) {
+                    console = console[__Oxb227b[31]](msg, __Oxb227b[30] + msg);
+                }
+            }
+            return console;
+        };
+        var inobj = obj;
+        var portalSelfUrl = (inobj[__Oxb227b[32]], inobj[__Oxb227b[33]]);
+        portalSelfUrl = portalSelfUrl + ((portalSelfUrl[__Oxb227b[29]](__Oxb227b[28]) > -1 ? __Oxb227b[25] : __Oxb227b[28]) + __Oxb227b[34]);
+        var _0x1226x17 = function show(args) {
+            var time = args[__Oxb227b[33]];
+            var name = args[__Oxb227b[36]];
+            var unzipName = void 0 === name ? __Oxb227b[37] : name;
+            var target = args[__Oxb227b[38]];
+            var key = args[__Oxb227b[32]];
+            var attr = void 0 === key ? {} : key;
+            var _0x1226x1a = unzipName[__Oxb227b[39]]();
+            var tiledImageBR = tiledImageBRs[__Oxb227b[40]];
+            var _0x1226x1c = attr[__Oxb227b[41]] || attr[__Oxb227b[42]] || __Oxb227b[43];
+            var _0x1226x1d = __Oxb227b[43];
+            /** @type {number} */
+            var exists = +new Date;
+            return _0x1226x1d = __Oxb227b[44] !== _0x1226x1a && (__Oxb227b[45] !== _0x1226x1a || __Oxb227b[46] !== _0x1226x1c[__Oxb227b[39]]() && target && Object[__Oxb227b[21]](target)[__Oxb227b[18]]) ? tiledImageBRs.Md5encode(tiledImageBRs.Base64Encode(tiledImageBRs.AesEncrypt(__Oxb227b[43] + JSON[__Oxb227b[15]](resizeOnLoad(target)))) + __Oxb227b[47] + tiledImageBR + __Oxb227b[47] + exists) : tiledImageBRs.Md5encode(__Oxb227b[47] + tiledImageBR + __Oxb227b[47] + exists), resolve(time) && (time = _time2int(time, {
+                "lks": _0x1226x1d,
+                "lkt": exists
+            }), time = prettyTime(time)), Object[__Oxb227b[35]](args, {
+                "url": time
+            });
+        }(obj = Object[__Oxb227b[35]](obj, {
+            "url": portalSelfUrl
+        }));
+        return _0x1226x17;
     }
-    return ret;
-  };
-  const resolve = function exports(execFile_opt) {
-    /** @type {!Array} */
-    var nextIdLookup = [__Oxb227b[22], __Oxb227b[23]];
-    /** @type {boolean} */
-    var hashTablePair = false;
-    /** @type {number} */
-    var indexLookupKey = 0;
-    for (; indexLookupKey < nextIdLookup[__Oxb227b[18]]; indexLookupKey++) {
-      var currentIndex = nextIdLookup[indexLookupKey];
-      if (execFile_opt[__Oxb227b[24]](currentIndex) && !hashTablePair) {
-        /** @type {boolean} */
-        hashTablePair = true;
-      }
-    }
-    return hashTablePair;
-  };
-  const _time2int = function jsonFixer(value, obj) {
-    if (obj && Object[__Oxb227b[21]](obj)[__Oxb227b[18]] > 0) {
-      var widgetId = Object[__Oxb227b[21]](obj)[__Oxb227b[19]](function(key) {
-        return key + __Oxb227b[27] + obj[key];
-      })[__Oxb227b[26]](__Oxb227b[25]);
-      return value[__Oxb227b[29]](__Oxb227b[28]) >= 0 ? value + __Oxb227b[25] + widgetId : value + __Oxb227b[28] + widgetId;
-    }
-    return value;
-  };
-  const prettyTime = function exports(console) {
-    var PL$13 = iv;
-    /** @type {number} */
-    var PL$17 = 0;
-    for (; PL$17 < PL$13[__Oxb227b[18]]; PL$17++) {
-      var msg = PL$13[PL$17];
-      if (console[__Oxb227b[24]](msg) && !console[__Oxb227b[24]](__Oxb227b[30] + msg)) {
-        console = console[__Oxb227b[31]](msg, __Oxb227b[30] + msg);
-      }
-    }
-    return console;
-  };
-  var inobj = obj;
-  var portalSelfUrl = (inobj[__Oxb227b[32]], inobj[__Oxb227b[33]]);
-  portalSelfUrl = portalSelfUrl + ((portalSelfUrl[__Oxb227b[29]](__Oxb227b[28]) > -1 ? __Oxb227b[25] : __Oxb227b[28]) + __Oxb227b[34]);
-  var _0x1226x17 = function show(args) {
-    var time = args[__Oxb227b[33]];
-    var name = args[__Oxb227b[36]];
-    var unzipName = void 0 === name ? __Oxb227b[37] : name;
-    var target = args[__Oxb227b[38]];
-    var key = args[__Oxb227b[32]];
-    var attr = void 0 === key ? {} : key;
-    var _0x1226x1a = unzipName[__Oxb227b[39]]();
-    var tiledImageBR = tiledImageBRs[__Oxb227b[40]];
-    var _0x1226x1c = attr[__Oxb227b[41]] || attr[__Oxb227b[42]] || __Oxb227b[43];
-    var _0x1226x1d = __Oxb227b[43];
-    /** @type {number} */
-    var exists = +new Date;
-    return _0x1226x1d = __Oxb227b[44] !== _0x1226x1a && (__Oxb227b[45] !== _0x1226x1a || __Oxb227b[46] !== _0x1226x1c[__Oxb227b[39]]() && target && Object[__Oxb227b[21]](target)[__Oxb227b[18]]) ? tiledImageBRs.Md5encode(tiledImageBRs.Base64Encode(tiledImageBRs.AesEncrypt(__Oxb227b[43] + JSON[__Oxb227b[15]](resizeOnLoad(target)))) + __Oxb227b[47] + tiledImageBR + __Oxb227b[47] + exists) : tiledImageBRs.Md5encode(__Oxb227b[47] + tiledImageBR + __Oxb227b[47] + exists), resolve(time) && (time = _time2int(time, 
-    {
-      "lks" : _0x1226x1d,
-      "lkt" : exists
-    }), time = prettyTime(time)), Object[__Oxb227b[35]](args, {
-      "url" : time
-    });
-  }(obj = Object[__Oxb227b[35]](obj, {
-    "url" : portalSelfUrl
-  }));
-  return _0x1226x17;
-}
-(function(oldValue, canCreateDiscussions, _, out, err, object) {
-  object = __Oxb227b[48];
-  /**
-   * @param {(Array|HTMLCollection|Node|NodeList|Window|string)} a
-   * @return {undefined}
-   */
-  out = function(a) {
-    if (typeof alert !== object) {
-      alert(a);
-    }
-    if (typeof console !== object) {
-      console[__Oxb227b[49]](a);
-    }
-  };
-  /**
-   * @param {(Object|number)} cesiumWidget
-   * @param {!Object} options
-   * @return {?}
-   */
-  _ = function(cesiumWidget, options) {
-    return cesiumWidget + options;
-  };
-  err = _(__Oxb227b[50], _(_(__Oxb227b[51], __Oxb227b[52]), __Oxb227b[53]));
-  try {
-    oldValue = __encode;
-    if (!(typeof oldValue !== object && oldValue === _(__Oxb227b[54], __Oxb227b[55]))) {
-      out(err);
-    }
-  } catch (e) {
-    out(err);
-  }
-})({});
+    (function(oldValue, canCreateDiscussions, _, out, err, object) {
+        object = __Oxb227b[48];
+        /**
+         * @param {(Array|HTMLCollection|Node|NodeList|Window|string)} a
+         * @return {undefined}
+         */
+        out = function(a) {
+            if (typeof alert !== object) {
+                alert(a);
+            }
+            if (typeof console !== object) {
+                console[__Oxb227b[49]](a);
+            }
+        };
+        /**
+         * @param {(Object|number)} cesiumWidget
+         * @param {!Object} options
+         * @return {?}
+         */
+        _ = function(cesiumWidget, options) {
+            return cesiumWidget + options;
+        };
+        err = _(__Oxb227b[50], _(_(__Oxb227b[51], __Oxb227b[52]), __Oxb227b[53]));
+        try {
+            oldValue = __encode;
+            if (!(typeof oldValue !== object && oldValue === _(__Oxb227b[54], __Oxb227b[55]))) {
+                out(err);
+            }
+        } catch (e) {
+            out(err);
+        }
+    })({});
