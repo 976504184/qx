@@ -2,8 +2,8 @@
 更新：2021-02-16
 破解收费
 QX:
-^https:\/\/lovezbapi\.jf-mrx\.com\.cn\/api\/public\/\?.*&service=(Home|Live)\.(?!getConfig).* url script-response-body https://raw.githubusercontent.com/976504184/qx/master/script/rewrite/love.js
-MITM = lovezbapi.jf-mrx.com.cn
+^https:\/\/lovezbapi\.dydfdzjs\.com\.cn\/api\/public\/\?.*&service=(Home|Live)\.(?!getConfig).* url script-response-body https://raw.githubusercontent.com/976504184/qx/master/script/rewrite/love.js
+MITM = lovezbapi.dydfdzjs.com.cn
 */
 
 let obj = JSON.parse($response.body);
