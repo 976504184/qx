@@ -7,10 +7,13 @@ MITM = hot.ios.mitaozhibo.org
 */
 
 let obj = JSON.parse($response.body);
-
+console.log($response.body);
 if (obj) {
     obj.dev.version='1.16.1.0';
     obj.test.version='1.16.1.0';
     obj.production.version='1.16.1';
 }
-$done({JSON.stringify(obj)});
+
+console.log(JSON.stringify(obj));
+
+$done({ JSON.stringify(obj) });
