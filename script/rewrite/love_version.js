@@ -11,7 +11,7 @@ let obj = JSON.parse($response.body);
 if (obj) {
     obj.dev.version='1.16.1.0';
     obj.test.version='1.16.1.0';
-    obj.production.version='1.16.1.0';
+    obj.production.version='1.16.1';
 }
 $done({
     body: JSON.stringify(obj)
