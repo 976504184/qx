@@ -13,6 +13,4 @@ if (obj) {
     obj.test.version='1.16.1.0';
     obj.production.version='1.16.1';
 }
-$done({
-    body: JSON.stringify(obj)
-});
+$done({JSON.stringify(obj)});
