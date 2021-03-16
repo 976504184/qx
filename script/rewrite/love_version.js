@@ -12,7 +12,7 @@ console.log($response.body);
 if (obj) {
     obj.dev.version='1.16.1.0';
     obj.testing.version='1.16.1.0';
-    obj.production.version='1.16.1';
+    obj.production.version='1.16.1.0';
 }
 
 console.log(JSON.stringify(obj));
