@@ -6,6 +6,7 @@ QX:
 MITM = hot.ios.mitaozhibo.org
 */
 
+let body = $response.body;
 let obj = JSON.parse($response.body);
 console.log($response.body);
 if (obj) {
@@ -15,5 +16,6 @@ if (obj) {
 }
 
 console.log(JSON.stringify(obj));
-
-$done({ JSON.stringify(obj) });
+body = JSON.stringify(obj);
+console.log(body);
+$done({ body });
